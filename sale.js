@@ -58,7 +58,7 @@ function main() {
                                 console.log(`Transaction hash: ${txhash}`);
                             }).then((r) => {
                                 SimpleSaleContract.events.SaleEnded().on('data', (event) => {
-                                    console.log(event.returnValues.winner);
+                                    console.log(`Il compratore è: ${event.returnValues.winner}`);
                                     
                                 });
                             });
