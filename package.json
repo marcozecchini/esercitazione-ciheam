@@ -1,0 +1,14 @@
+{
+  "name": "esercitazione_ciheam",
+  "version": "1.0.0",
+  "description": "Esercitazioni per lezioni al ciheam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcozecchini",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.5.0"
+  }
+}
